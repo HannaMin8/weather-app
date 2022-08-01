@@ -1,0 +1,91 @@
+body {
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Splash", cursive;
+  margin: 0px 30px;
+  padding: 10px 10px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+.temp-and-sing {
+  display: flex;
+  flex-direction: column;
+  color: #0c3d64;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 1em;
+  margin: -10px -15px;
+}
+.humidity-and-wind {
+  display: flex;
+  flex-direction: column;
+  color: #0c3d64;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1em;
+  margin: -149px 239px;
+}
+
+.background {
+  display: flex;
+
+  background: url("https://images.pexels.com/photos/7877270/pexels-photo-7877270.jpeg?cs=srgb&dl=pexels-csuperstar-7877270.jpg&fm=jpg")
+    center no-repeat;
+  background-size: cover;
+  padding: 10px 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-sizing: content-box;
+  width: 60%;
+  height: 600px;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+
+  box-sizing: content-box;
+  width: 60%;
+  text-align: left;
+}
+
+.btn.btn-primary {
+  margin-inline: 10px;
+  background-color: #b9cad4;
+  color: black;
+  border: 2px solid #1f4869;
+  transition: all 200ms ease;
+  width: 40%;
+}
+h1 {
+  color: #4f4f5e;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+.day {
+  padding: 305px 0px;
+  margin: 30px 5px;
+  color: white;
+
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+}
+#sing {
+  font-size: 100px;
+}
+.active {
+  color: yellow;
+}
+.units {
+  color: #007bff;
+}

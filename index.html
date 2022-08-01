@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="src/styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script
+			src="https://kit.fontawesome.com/26b42b9aa1.js"
+			crossorigin="anonymous"
+		></script>
+
+		<title>weather forecast</title>
+	</head>
+	<body>
+		<form id ="search-form">
+			<div class="form-group">
+				<input
+					type="text"
+					class="form-control"
+					placeholder="Enter a city"
+					id="city-input" 
+				/>
+				<button type="submit" class="btn btn-primary">SEARCH</button>
+				<button class="btn btn-primary" id="current-location">Current Location</button>
+			</div>
+		</form>
+		<div class="background">
+			<div class="weather-in-copenhagen">
+				<h1 id="city">Copenhagen </h1>
+				<h2><span id="date"></span></h2>
+				<div class="temp-and-sing">
+					<div class="col-6">
+						<span class="temp">22</span>
+						<span class ="units">
+						<a href="#" class="celsius">°C</a>|<a href="#" class="fahrenheit">°F</a>
+						</span>
+						
+					<div>
+					<div class="col-6" id="sing">
+						<i class="fa-solid fa-cloud-sun-rain"></i>
+						
+					</div>
+				</div>
+				<div class="humidity-and-wind">
+					<div class="col-6">
+						Humidity:
+						<br />
+						94%
+					</div>
+					<div class="col-6">
+						Wind:
+						<br />
+						1 m/s
+					</div>
+				</div>
+				<div class="grid">
+					<div class="day">
+						Sat
+						<br />
+						<i class="fa-solid fa-sun"></i>
+						<br />
+						22°C
+					</div>
+					<div class="day">
+						Sun
+						<br />
+						<i class="fa-solid fa-cloud-sun-rain"></i>
+						<br />
+						20°C
+					</div>
+					<div class="day">
+						Mon
+						<br />
+						<i class="fa-solid fa-cloud-sun"></i>
+						<br />
+						21°C
+					</div>
+					<div class="day">
+						Tue
+						<br />
+						<i class="fa-solid fa-cloud-sun-rain"></i>
+						<br />
+						22°C
+					</div>
+					<div class="day">
+						Wed
+						<br />
+						<i class="fa-solid fa-sun"></i>
+						<br />
+						25°C
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="src/index.js"></script>
+	</body>
+</html>
+</head>
+</html>
